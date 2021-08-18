@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css",
-    "main.js": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/main.76e98017.chunk.js",
-    "main.js.map": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/main.76e98017.chunk.js.map",
-    "runtime-main.js": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/runtime-main.f599140f.js",
-    "runtime-main.js.map": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/runtime-main.f599140f.js.map",
-    "static/js/2.857851fe.chunk.js": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js",
-    "static/js/2.857851fe.chunk.js.map": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js.map",
-    "static/js/3.cc016734.chunk.js": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/3.cc016734.chunk.js",
-    "static/js/3.cc016734.chunk.js.map": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/3.cc016734.chunk.js.map",
-    "index.html": "/iromjalis.gihbub.io/goit-react-hw-01-components/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.857851fe.chunk.js.LICENSE.txt": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/iromjalis.gihbub.io/goit-react-hw-01-components/static/media/logo.6ce24c58.svg"
+    "main.css": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css",
+    "main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.76e98017.chunk.js",
+    "main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.76e98017.chunk.js.map",
+    "runtime-main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.d9df4f9b.js",
+    "runtime-main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.d9df4f9b.js.map",
+    "static/js/2.857851fe.chunk.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js",
+    "static/js/2.857851fe.chunk.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js.map",
+    "static/js/3.cc016734.chunk.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/3.cc016734.chunk.js",
+    "static/js/3.cc016734.chunk.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/3.cc016734.chunk.js.map",
+    "index.html": "/iromjalis.gitbub.io/goit-react-hw-01-components/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.857851fe.chunk.js.LICENSE.txt": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.857851fe.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f599140f.js",
+    "static/js/runtime-main.d9df4f9b.js",
     "static/js/2.857851fe.chunk.js",
     "static/css/main.a617e044.chunk.css",
     "static/js/main.76e98017.chunk.js"
