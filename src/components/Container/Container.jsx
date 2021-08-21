@@ -4,13 +4,14 @@ import './Container.css';
 
 const Container =({title, children}) =>{ 
   return (
-  <>
-      {children && (<div className="ContainerWrapper">
-        {title && (<h1>{title} </h1>)}
+    <div className="ContainerWrapper">
+      {title && (<h1>{title} </h1>)}
+
+       <div>
           {children}
-      </div>)}
+      </div>
        
-    </>
+    </div>
     );
   }
  
