@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.eb57e5e6.chunk.css",
-    "main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.2735ec36.chunk.js",
-    "main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.2735ec36.chunk.js.map",
+    "main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.404bb376.chunk.js",
+    "main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.404bb376.chunk.js.map",
     "runtime-main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.a502cf80.js",
     "runtime-main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.a502cf80.js.map",
     "static/js/2.8b968b0b.chunk.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.8b968b0b.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a502cf80.js",
     "static/js/2.8b968b0b.chunk.js",
     "static/css/main.eb57e5e6.chunk.css",
-    "static/js/main.2735ec36.chunk.js"
+    "static/js/main.404bb376.chunk.js"
   ]
 }
