@@ -6,6 +6,9 @@ import Statistics from './components/Statistics/Statistics';
 import user from './data/user.json'
 import statisticalData from './data/statistical-data.json'
 
+let randomColor = `'#' + Math.floor(Math.random() * 16777215).toString(16)`
+
+
 function App() {
   return (
     <div className="App">
@@ -20,10 +23,10 @@ function App() {
   stats={user.stats}
 /></Container>
 
-        <Container title=''>
-          {/* <Statistics title="Upload stats" stats={statisticalData} /> */}
+        <Container title='Секция статистики:'>
+          <Statistics title="Upload stats" stats={statisticalData} randomColor={randomColor}/>
         </Container>
-
+<Container><Statistics stats={statisticalData} randomColor={randomColor} /></Container>
       </header>
     </div>
   );
