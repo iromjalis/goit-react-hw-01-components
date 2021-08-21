@@ -1,8 +1,10 @@
 import './App.css';
 import Profile from './components/Profile/Profile';
 import Container from './components/Container/Container';
-
+import Statistics from './components/Statistics/Statistics';
+//file
 import user from './data/user.json'
+import statisticalData from './data/statistical-data.json'
 
 function App() {
   return (
@@ -19,6 +21,7 @@ function App() {
 /></Container>
 
         <Container title=''>
+          {/* <Statistics title="Upload stats" stats={statisticalData} /> */}
         </Container>
 
       </header>

@@ -12,7 +12,7 @@ const Container =({title, children}) =>{
       </div>
        
     </div>
-    );
+    )
   }
  
 Container.propTypes = {
