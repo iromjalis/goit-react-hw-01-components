@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.44feee86.chunk.css",
-    "main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.c3d4c4b3.chunk.js",
-    "main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.c3d4c4b3.chunk.js.map",
+    "main.css": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.c1bcbf9b.chunk.css",
+    "main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.34845d48.chunk.js",
+    "main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/main.34845d48.chunk.js.map",
     "runtime-main.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.a502cf80.js",
     "runtime-main.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/runtime-main.a502cf80.js.map",
-    "static/js/2.6042ae8a.chunk.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.6042ae8a.chunk.js",
-    "static/js/2.6042ae8a.chunk.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.6042ae8a.chunk.js.map",
+    "static/js/2.98d87c1b.chunk.js": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.98d87c1b.chunk.js",
+    "static/js/2.98d87c1b.chunk.js.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.98d87c1b.chunk.js.map",
     "index.html": "/iromjalis.gitbub.io/goit-react-hw-01-components/index.html",
-    "static/css/main.44feee86.chunk.css.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.44feee86.chunk.css.map",
-    "static/js/2.6042ae8a.chunk.js.LICENSE.txt": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.6042ae8a.chunk.js.LICENSE.txt"
+    "static/css/main.c1bcbf9b.chunk.css.map": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/css/main.c1bcbf9b.chunk.css.map",
+    "static/js/2.98d87c1b.chunk.js.LICENSE.txt": "/iromjalis.gitbub.io/goit-react-hw-01-components/static/js/2.98d87c1b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.a502cf80.js",
-    "static/js/2.6042ae8a.chunk.js",
-    "static/css/main.44feee86.chunk.css",
-    "static/js/main.c3d4c4b3.chunk.js"
+    "static/js/2.98d87c1b.chunk.js",
+    "static/css/main.c1bcbf9b.chunk.css",
+    "static/js/main.34845d48.chunk.js"
   ]
 }
