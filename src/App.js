@@ -5,9 +5,10 @@ import Statistics from './components/Statistics/Statistics';
 //file
 import user from './data/user.json'
 import statisticalData from './data/statistical-data.json'
+import friends from './data/friends.json'
+import FriendList from './components/FriendsList/FriendList';
 
-let randomColor = `'#' + Math.floor(Math.random() * 16777215).toString(16)`
-
+ 
 
 function App() {
   return (
@@ -24,10 +25,13 @@ function App() {
 /></Container>
 
         <Container title='Секция статистики:'>
-          <Statistics title="Upload stats" stats={statisticalData} randomColor={randomColor}/>
+          <Statistics title="Upload stats" stats={statisticalData}  />
         </Container>
-<Container><Statistics stats={statisticalData} randomColor={randomColor} /></Container>
-      </header>
+
+        <Container title='Список друзей:'>
+        <FriendList friends={friends} />
+        </Container>
+       </header>
     </div>
   );
 }

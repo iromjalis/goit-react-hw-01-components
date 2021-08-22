@@ -1,6 +1,9 @@
 import React  from 'react';
 import PropTypes from 'prop-types';
+//styles
 import './Profile.css';
+//default
+import defaultImg from '../../defaultPhoto.jpg'
 
  const Profile = ( {name, tag, location, avatar, stats} ) => { 
 
@@ -33,11 +36,15 @@ import './Profile.css';
   }
  
 Profile.propTypes = {
-  // bla: PropTypes.string,
+  name: PropTypes.string,
+  tag: PropTypes.string,
+  location: PropTypes.string,
+  avatar: PropTypes.string,
+  stats:PropTypes.objectOf(PropTypes.node.isRequired,)
 };
 
 Profile.defaultProps = {
-  // bla: 'test',
+ avatar: defaultImg,
 };
 
 export default Profile;
