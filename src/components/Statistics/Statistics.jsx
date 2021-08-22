@@ -2,7 +2,7 @@ import React  from 'react';
 import PropTypes from 'prop-types';
 import   './Statistics.css';
 let randomColor = (Math.round, Math.random, 255)
-console.log('random', randomColor)
+// console.log('random', randomColor)
 
 
 
