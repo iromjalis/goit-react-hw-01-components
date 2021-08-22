@@ -1,7 +1,10 @@
 import React  from 'react';
 import PropTypes from 'prop-types';
 import   './Statistics.css';
-let randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16)
+let randomColor = (Math.round, Math.random, 255)
+console.log('random', randomColor)
+
+
 
 const Statistics = ({ title, stats }) => {
   return (
@@ -10,7 +13,7 @@ const Statistics = ({ title, stats }) => {
         {title && <h2 className="title">{title}</h2>}
           <ul className="stat-list"> 
             {stats.map(({id, label, percentage}) =>
-            (<li className="stat-item" style={{backgroundColor:randomColor}} key={id}>
+            (<li className="stat-item" style={{backgroundColor: `rgb(randomColor, randomColor, randomColor)`}} key={id}>
     <span className="label">{label}</span>
     <span className="percentage">{percentage} %</span>
             </li>))}

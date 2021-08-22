@@ -3,20 +3,17 @@ import PropTypes from 'prop-types';
 import  './FriendsItem.css';
 import defaultImg from '../../defaultPhoto.jpg'
 
-const FriendsItem =({name, avatar,isOnline}) =>{ 
+const FriendsItem =({name, avatar,isOnline, id}) =>{ 
  
  
     return (
-      <div className="FriendsItemWrapper">
+       <li className="FriendsItem-item" key={id}>
+        <span className="status">{isOnline? '🟢': '🔴' } </span>
+        <img className="avatar" src={avatar} alt={name} width="48" />
+        <p className="name">{name} </p>
+      </li>
 
-       <li class="FriendsItem-item">
-  <span class="status">{isOnline? '🟢': '🔴' } </span>
-  <img class="avatar" src={avatar} alt={name} width="48" />
-  <p class="name">{name} </p>
-</li>
-
-      </div>
-    );
+     );
   }
 
 FriendsItem.propTypes = {

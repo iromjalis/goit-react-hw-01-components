@@ -11,19 +11,16 @@ import  './FriendList.css';
 //   },
 
 const  FriendList =({friends})=> { 
-
       return (
-      <div className="FriendListWrapper">
-          <ul class="friend-list">
-            {friends.map(({ avatar, name, isOnline }) => <FriendsItem avatar={avatar} name={name} isOnline={isOnline} />
-)}
-</ul>
-      </div>
-    );
+           <ul className="friend-list">
+            {friends.map(({ avatar, name, isOnline, id }) => <FriendsItem avatar={avatar} name={name} isOnline={isOnline} key={id}/>)}
+          </ul>
+     );
   }
  
 FriendList.propTypes = {
-friends: PropTypes.arrayOf(PropTypes.string,),};
+  friends: PropTypes.any.isRequired
+}
 
 FriendList.defaultProps = {
   // bla: 'test',
