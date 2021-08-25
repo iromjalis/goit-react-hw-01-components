@@ -1,13 +1,13 @@
-import React, { PureComponent } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import  './FriendsItem.css';
 import defaultImg from '../../defaultPhoto.jpg'
 
-const FriendsItem =({name, avatar,isOnline, id}) =>{ 
+const FriendsItem =({name, avatar,isOnline}) =>{ 
  
  
     return (
-       <li className="FriendsItem-item" key={id}>
+       <li className="FriendsItem-item">
         <span className="status">{isOnline? '🟢': '🔴' } </span>
         <img className="avatar" src={avatar} alt={name} width="48" />
         <p className="name">{name} </p>

@@ -36,10 +36,10 @@ import StatsItem from './StatsItem';
   }
  
 Profile.propTypes = {
-  name: PropTypes.string,
-  tag: PropTypes.string,
-  location: PropTypes.string,
-  avatar: PropTypes.string,
+  name: PropTypes.string.isRequired,
+  tag: PropTypes.string.isRequired,
+  location: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
   stats:PropTypes.objectOf(PropTypes.node.isRequired,)
 };
 
