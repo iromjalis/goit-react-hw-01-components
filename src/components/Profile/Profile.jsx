@@ -4,6 +4,7 @@ import PropTypes from 'prop-types';
 import './Profile.css';
 //default
 import defaultImg from '../../defaultPhoto.jpg'
+import StatsItem from './StatsItem';
 
  const Profile = ( {name, tag, location, avatar, stats} ) => { 
 
@@ -24,10 +25,9 @@ import defaultImg from '../../defaultPhoto.jpg'
   </div>
 
            <ul className="Stats">
-             {Object.entries(stats).map((stat, i)=>(<li className="StatItem" key={i}>
-               <span className="label">{stat[0][0].toUpperCase()}{stat[0].slice(1,)}</span>
-      <span className="quantity">{stat[1].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")} </span>
-    </li>))}
+             {Object.entries(stats).map((stat, i) => (
+               <StatsItem stat={stat} key={i}/>
+             ))}
    </ul>
 </div>
 
