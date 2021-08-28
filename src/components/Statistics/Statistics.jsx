@@ -1,7 +1,10 @@
-import React  from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import   './Statistics.css';
+// components
 import StatisticItem from './StatisticItem';
+//styles
+import './Statistics.css';
+//randomm backGroundColor
 const randomColor = () => {
   let random1 = Math.round(Math.random() * 255);
   let random2 = Math.round(Math.random() * 255);
@@ -14,24 +17,30 @@ const Statistics = ({ title, stats }) => {
     <div className="StatisticsWrapper">
       <section className="statistics">
         {title && <h2 className="title">{title}</h2>}
-          <ul className="stat-list"> 
+        <ul className="stat-list">
           {stats.map((stat, i) => {
             let backgroundColor = randomColor();
-            return <StatisticItem stat={stat} backgroundColor={backgroundColor} key={stat.id}/>
+            return (
+              <StatisticItem
+                stat={stat}
+                backgroundColor={backgroundColor}
+                key={stat.id}
+              />
+            );
           })}
-          </ul>
+        </ul>
       </section>
     </div>
-    )
-  }
- 
+  );
+};
+
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(PropTypes.any.isRequired),
 };
 
 Statistics.defaultProps = {
-  title:''
+  title: '',
 };
 
 export default Statistics;
