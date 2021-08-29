@@ -14,28 +14,26 @@ import transactions from './data/transactions.json';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Container title="Профиль социальной сети:">
-          <Profile
-            name={user.name}
-            tag={user.tag}
-            location={user.location}
-            avatar={user.avatar}
-            stats={user.stats}
-          />
-        </Container>
+      <Container title="Профиль социальной сети:">
+        <Profile
+          name={user.name}
+          tag={user.tag}
+          location={user.location}
+          avatar={user.avatar}
+          stats={user.stats}
+        />
+      </Container>
 
-        <Container title="Секция статистики:">
-          <Statistics title="Upload stats" stats={statisticalData} />
-        </Container>
+      <Container title="Секция статистики:">
+        <Statistics title="Upload stats" stats={statisticalData} />
+      </Container>
 
-        <Container title="Список друзей:">
-          <FriendList friends={friends} />
-        </Container>
-        <Container title="История транзакций:">
-          <TransactionHistory items={transactions} />
-        </Container>
-      </header>
+      <Container title="Список друзей:">
+        <FriendList friends={friends} />
+      </Container>
+      <Container title="История транзакций:">
+        <TransactionHistory items={transactions} />
+      </Container>
     </div>
   );
 }
